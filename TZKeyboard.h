@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "UIColor+Extended.h"
 
 #ifndef kCFCoreFoundationVersionNumber_iOS_8_0
     #define kCFCoreFoundationVersionNumber_iOS_8_0 1129.15
