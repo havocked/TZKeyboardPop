@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8312BA4F1A969D4600372129 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8312BA4E1A969D4600372129 /* main.m */; };
+		8312BA521A969D4600372129 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8312BA511A969D4600372129 /* AppDelegate.m */; };
+		8312BA551A969D4600372129 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8312BA541A969D4600372129 /* ViewController.m */; };
+		8312BA581A969D4600372129 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8312BA561A969D4600372129 /* Main.storyboard */; };
+		8312BA5A1A969D4600372129 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8312BA591A969D4600372129 /* Images.xcassets */; };
+		8312BA5D1A969D4600372129 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8312BA5B1A969D4600372129 /* LaunchScreen.xib */; };
+		8312BA691A969D4600372129 /* TZKeyBoardExampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8312BA681A969D4600372129 /* TZKeyBoardExampleAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8312BA631A969D4600372129 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8312BA411A969D4600372129 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8312BA481A969D4600372129;
+			remoteInfo = TZKeyBoardExampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8312BA491A969D4600372129 /* TZKeyBoardExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TZKeyBoardExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8312BA4D1A969D4600372129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8312BA4E1A969D4600372129 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8312BA501A969D4600372129 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8312BA511A969D4600372129 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8312BA531A969D4600372129 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8312BA541A969D4600372129 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8312BA571A969D4600372129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8312BA591A969D4600372129 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8312BA5C1A969D4600372129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8312BA621A969D4600372129 /* TZKeyBoardExampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TZKeyBoardExampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8312BA671A969D4600372129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8312BA681A969D4600372129 /* TZKeyBoardExampleAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZKeyBoardExampleAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8312BA461A969D4600372129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8312BA5F1A969D4600372129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8312BA401A969D4600372129 = {
+			isa = PBXGroup;
+			children = (
+				8312BA4B1A969D4600372129 /* TZKeyBoardExampleApp */,
+				8312BA651A969D4600372129 /* TZKeyBoardExampleAppTests */,
+				8312BA4A1A969D4600372129 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8312BA4A1A969D4600372129 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8312BA491A969D4600372129 /* TZKeyBoardExampleApp.app */,
+				8312BA621A969D4600372129 /* TZKeyBoardExampleAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8312BA4B1A969D4600372129 /* TZKeyBoardExampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				8312BA501A969D4600372129 /* AppDelegate.h */,
+				8312BA511A969D4600372129 /* AppDelegate.m */,
+				8312BA531A969D4600372129 /* ViewController.h */,
+				8312BA541A969D4600372129 /* ViewController.m */,
+				8312BA561A969D4600372129 /* Main.storyboard */,
+				8312BA591A969D4600372129 /* Images.xcassets */,
+				8312BA5B1A969D4600372129 /* LaunchScreen.xib */,
+				8312BA4C1A969D4600372129 /* Supporting Files */,
+			);
+			path = TZKeyBoardExampleApp;
+			sourceTree = "<group>";
+		};
+		8312BA4C1A969D4600372129 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8312BA4D1A969D4600372129 /* Info.plist */,
+				8312BA4E1A969D4600372129 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8312BA651A969D4600372129 /* TZKeyBoardExampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8312BA681A969D4600372129 /* TZKeyBoardExampleAppTests.m */,
+				8312BA661A969D4600372129 /* Supporting Files */,
+			);
+			path = TZKeyBoardExampleAppTests;
+			sourceTree = "<group>";
+		};
+		8312BA661A969D4600372129 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8312BA671A969D4600372129 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8312BA481A969D4600372129 /* TZKeyBoardExampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8312BA6C1A969D4600372129 /* Build configuration list for PBXNativeTarget "TZKeyBoardExampleApp" */;
+			buildPhases = (
+				8312BA451A969D4600372129 /* Sources */,
+				8312BA461A969D4600372129 /* Frameworks */,
+				8312BA471A969D4600372129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TZKeyBoardExampleApp;
+			productName = TZKeyBoardExampleApp;
+			productReference = 8312BA491A969D4600372129 /* TZKeyBoardExampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8312BA611A969D4600372129 /* TZKeyBoardExampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8312BA6F1A969D4600372129 /* Build configuration list for PBXNativeTarget "TZKeyBoardExampleAppTests" */;
+			buildPhases = (
+				8312BA5E1A969D4600372129 /* Sources */,
+				8312BA5F1A969D4600372129 /* Frameworks */,
+				8312BA601A969D4600372129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8312BA641A969D4600372129 /* PBXTargetDependency */,
+			);
+			name = TZKeyBoardExampleAppTests;
+			productName = TZKeyBoardExampleAppTests;
+			productReference = 8312BA621A969D4600372129 /* TZKeyBoardExampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8312BA411A969D4600372129 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Nataniel Martin";
+				TargetAttributes = {
+					8312BA481A969D4600372129 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					8312BA611A969D4600372129 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 8312BA481A969D4600372129;
+					};
+				};
+			};
+			buildConfigurationList = 8312BA441A969D4600372129 /* Build configuration list for PBXProject "TZKeyBoardExampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8312BA401A969D4600372129;
+			productRefGroup = 8312BA4A1A969D4600372129 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8312BA481A969D4600372129 /* TZKeyBoardExampleApp */,
+				8312BA611A969D4600372129 /* TZKeyBoardExampleAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8312BA471A969D4600372129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8312BA581A969D4600372129 /* Main.storyboard in Resources */,
+				8312BA5D1A969D4600372129 /* LaunchScreen.xib in Resources */,
+				8312BA5A1A969D4600372129 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8312BA601A969D4600372129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8312BA451A969D4600372129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8312BA551A969D4600372129 /* ViewController.m in Sources */,
+				8312BA521A969D4600372129 /* AppDelegate.m in Sources */,
+				8312BA4F1A969D4600372129 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8312BA5E1A969D4600372129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8312BA691A969D4600372129 /* TZKeyBoardExampleAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8312BA641A969D4600372129 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8312BA481A969D4600372129 /* TZKeyBoardExampleApp */;
+			targetProxy = 8312BA631A969D4600372129 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8312BA561A969D4600372129 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8312BA571A969D4600372129 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8312BA5B1A969D4600372129 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8312BA5C1A969D4600372129 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8312BA6A1A969D4600372129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8312BA6B1A969D4600372129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8312BA6D1A969D4600372129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TZKeyBoardExampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8312BA6E1A969D4600372129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TZKeyBoardExampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8312BA701A969D4600372129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TZKeyBoardExampleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TZKeyBoardExampleApp.app/TZKeyBoardExampleApp";
+			};
+			name = Debug;
+		};
+		8312BA711A969D4600372129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TZKeyBoardExampleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TZKeyBoardExampleApp.app/TZKeyBoardExampleApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8312BA441A969D4600372129 /* Build configuration list for PBXProject "TZKeyBoardExampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8312BA6A1A969D4600372129 /* Debug */,
+				8312BA6B1A969D4600372129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8312BA6C1A969D4600372129 /* Build configuration list for PBXNativeTarget "TZKeyBoardExampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8312BA6D1A969D4600372129 /* Debug */,
+				8312BA6E1A969D4600372129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8312BA6F1A969D4600372129 /* Build configuration list for PBXNativeTarget "TZKeyBoardExampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8312BA701A969D4600372129 /* Debug */,
+				8312BA711A969D4600372129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8312BA411A969D4600372129 /* Project object */;
+}
