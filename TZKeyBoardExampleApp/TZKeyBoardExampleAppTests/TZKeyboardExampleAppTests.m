@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface TZKeyBoardExampleAppTests : XCTestCase
+@interface TZKeyboardExampleAppTests : XCTestCase
 
 @end
 
-@implementation TZKeyBoardExampleAppTests
+@implementation TZKeyboardExampleAppTests
 
 - (void)setUp {
     [super setUp];
