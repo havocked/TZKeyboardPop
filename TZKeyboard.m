@@ -28,7 +28,7 @@ static UIView *_placeholderView;
     [_placeholderView setBackgroundColor:[UIColor groupTableViewBackgroundColor]];
     
     _mytextField = [[UITextField alloc] init];
-    _mytextField.tintColor = [UIColor applicationTZColor];
+    _mytextField.tintColor = [UIColor blueColor];
     [_mytextField setBackgroundColor:[UIColor whiteColor]];
     [_mytextField setPlaceholder:@"Write new title here"];
     [_mytextField setBorderStyle:UITextBorderStyleRoundedRect];
