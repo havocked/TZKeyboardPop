@@ -28,9 +28,7 @@ static UIView *_placeholderView;
     [_placeholderView setBackgroundColor:[UIColor groupTableViewBackgroundColor]];
     
     _mytextField = [[UITextField alloc] init];
-   // _mytextField.tintColor = [UIColor blueColor];
     [_mytextField setBackgroundColor:[UIColor whiteColor]];
-    [_mytextField setPlaceholder:@"Write new title here"];
     [_mytextField setBorderStyle:UITextBorderStyleRoundedRect];
     [_mytextField setReturnKeyType:UIReturnKeyDone];
     [_mytextField setTranslatesAutoresizingMaskIntoConstraints:NO];
@@ -76,15 +74,6 @@ static UIView *_placeholderView;
     return self;
 }
 
-- (void) dismissCustomKeyboard:(id)sender {
-    [_mytextField resignFirstResponder];
-    
-    if([_delegate respondsToSelector:@selector(didCancelKeyboard)]){
-        [_delegate didCancelKeyboard];
-        [_mytextField setText:@""];
-    }
-}
-
 - (void) setPlaceholderText:(NSString *)str {
     [_mytextField setPlaceholder:str];
 }
@@ -95,6 +84,20 @@ static UIView *_placeholderView;
 
 - (void) setTextFieldTextViewMode:(UITextFieldViewMode)mode {
     [_mytextField setClearButtonMode:mode];
+}
+
+- (void)setTextFieldTintColor:(UIColor *)color {
+    [_mytextField setTintColor:color];
+}
+
+
+- (void) dismissCustomKeyboard:(id)sender {
+    [_mytextField resignFirstResponder];
+    
+    if([_delegate respondsToSelector:@selector(didCancelKeyboard)]){
+        [_delegate didCancelKeyboard];
+        [_mytextField setText:@""];
+    }
 }
 
 - (void) showKeyboard {

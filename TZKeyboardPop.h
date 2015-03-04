@@ -29,11 +29,12 @@
 @property (nonatomic, weak) id<TZKeyboardPopDelegate> delegate;
 @property (nonatomic, assign) NSInteger tag;
 
-- (id)initWithView:(UIView *)view;
+- (id) initWithView:(UIView *)view;
 
 - (void) setPlaceholderText:(NSString *)str;
 - (void) setTextFieldText:(NSString *)str;
 - (void) setTextFieldTextViewMode:(UITextFieldViewMode)mode;
+- (void) setTextFieldTintColor:(UIColor *)color;
 
 - (void) showKeyboard;
 
