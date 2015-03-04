@@ -3,7 +3,7 @@
 TZKeyboardPop allow user to pop a keyboard with a UITextField dynamically attached to it.
 
 ### Version
-0.0.1
+1.0.0
 
 ### Installation
 - Before I finish to put the project on cocoapods, you need to manually put the two files (TZkeyboard.h / .m) in your project.
