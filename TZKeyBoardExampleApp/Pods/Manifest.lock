@@ -1,0 +1,14 @@
+PODS:
+  - TZKeyboardPop (1.0.0)
+
+DEPENDENCIES:
+  - TZKeyboardPop (from `../`)
+
+EXTERNAL SOURCES:
+  TZKeyboardPop:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TZKeyboardPop: d9409c4abe40d1a84aaeb6cef7abd9a6343f60fe
+
+COCOAPODS: 0.35.0

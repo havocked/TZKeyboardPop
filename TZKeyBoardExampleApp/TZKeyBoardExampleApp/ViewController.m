@@ -16,7 +16,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    keyboard = [[TZKeyboardPop alloc] initWithView:self.view];
+    keyboard.delegate = self;
+    
+    
+    [keyboard setTextFieldTextViewMode:UITextFieldViewModeWhileEditing];
+    
+    [keyboard setPlaceholderText:@"Hello word"];
+    [keyboard setTextFieldText:@"Yo yo what'up ?"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -25,7 +33,21 @@
 }
 
 - (IBAction)openKeyboardAction:(id)sender {
-    NSLog(@"yop");
+    [keyboard showKeyboard];
+}
+
+#pragma mark - TZKeyboardPopDelegates
+
+- (void)didShowKeyboard {
+    NSLog(@"Keyboard was shown !");
+}
+
+- (void) didCancelKeyboard {
+    NSLog(@"Keyboard canceled !");
+}
+
+- (void) didReturnKeyPressedWithText:(NSString *)str {
+    NSLog(@"Well, my guess is that you wrote: [%@]", str);
 }
 
 @end

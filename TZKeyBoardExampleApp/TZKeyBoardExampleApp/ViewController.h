@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <TZKeyboardPop.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <TZKeyboardPopDelegate> {
+    TZKeyboardPop *keyboard;
+}
 
 - (IBAction)openKeyboardAction:(id)sender;
 

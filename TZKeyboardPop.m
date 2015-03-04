@@ -6,14 +6,14 @@
 //  Copyright (c) 2015 appstud. All rights reserved.
 //
 
-#import "TZKeyboard.h"
+#import "TZKeyboardPop.h"
 
-@implementation TZKeyboard
+@implementation TZKeyboardPop
 
 static UITextField *_mytextField;
 static UIView *_placeholderView;
 
-- (TZKeyboard *) initWithView:(UIView *)view {
+- (TZKeyboardPop *) initWithView:(UIView *)view {
     // make sure we only add this once
     
     tapToDismissView = [[UIView alloc] initWithFrame:view.frame];
@@ -28,7 +28,7 @@ static UIView *_placeholderView;
     [_placeholderView setBackgroundColor:[UIColor groupTableViewBackgroundColor]];
     
     _mytextField = [[UITextField alloc] init];
-    _mytextField.tintColor = [UIColor blueColor];
+   // _mytextField.tintColor = [UIColor blueColor];
     [_mytextField setBackgroundColor:[UIColor whiteColor]];
     [_mytextField setPlaceholder:@"Write new title here"];
     [_mytextField setBorderStyle:UITextBorderStyleRoundedRect];
@@ -93,6 +93,10 @@ static UIView *_placeholderView;
     [_mytextField setText:str];
 }
 
+- (void) setTextFieldTextViewMode:(UITextFieldViewMode)mode {
+    [_mytextField setClearButtonMode:mode];
+}
+
 - (void) showKeyboard {
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(keyboardWillShowNotif:)
@@ -102,6 +106,11 @@ static UIView *_placeholderView;
                                              selector:@selector(keyboardWillHideNotif:)
                                                  name:UIKeyboardWillHideNotification
                                                object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(keyboardDidShowNotif:)
+                                                 name:UIKeyboardDidShowNotification
+                                               object:nil];
+    
     
     [currentView addSubview:tapToDismissView];
     _mytextField.delegate = self;
@@ -127,6 +136,12 @@ static UIView *_placeholderView;
     }
 }
 
+- (void) keyboardDidShowNotif:(NSNotification *)notification {
+    if([_delegate respondsToSelector:@selector(didShowKeyboard)]){
+        [_delegate didShowKeyboard];
+    }
+}
+
 - (void) keyboardWillHideNotif:(NSNotification *)notification {
     NSDictionary *userInfo = [notification userInfo];
     UIViewAnimationCurve curve = [userInfo[UIKeyboardAnimationCurveUserInfoKey] integerValue];
@@ -147,6 +162,8 @@ static UIView *_placeholderView;
     
     [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillShowNotification object:nil];
     [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillHideNotification object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardDidShowNotification object:nil];
+    
 }
 
 - (BOOL) textFieldShouldReturn:(UITextField *)textField {
