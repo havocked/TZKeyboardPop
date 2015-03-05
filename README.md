@@ -19,7 +19,7 @@ TZKeyboardPop allow user to pop a keyboard with a UITextField dynamically attach
 - ```objectivec
     #import <TZKeyboardPop.h>
 ```
-- Declare
+
 - ```objectivec
     @property (weak, nonatomic) TZKeyboard *customKeyboard;
 ```
