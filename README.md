@@ -9,18 +9,18 @@ TZKeyboardPop allow user to pop a keyboard with a UITextField dynamically attach
 
 - If you are using Cocoapods, insert the line below into your podfile
 - ```sh
-    pod 'TZKeyboardPop', '~> 0.0.1'
+pod 'TZKeyboardPop', '~> 0.0.1'
 ```
 
 - OR manually import TZKeyboardPop.h, TZKeyboardPop.m into your project
 
 - You need to import wherever you wan't to pop the keyboard
 
-- ```objective-c 
+- ```objectivec
 #import <TZKeyboardPop.h>
 ```
 - Declare
-- ```objective-c
+- ```objectivec
 @property (weak, nonatomic) TZKeyboard *customKeyboard;
 ```
 - Don't forget to add TZKeyboardDelegate in your viewController
