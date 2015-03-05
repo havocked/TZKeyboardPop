@@ -21,7 +21,7 @@ TZKeyboardPop allow user to pop a keyboard with a UITextField dynamically attach
 ```
 
 ```objectivec
-    @property (weak, nonatomic) TZKeyboard *customKeyboard;
+    @property (weak, nonatomic) TZKeyboardPop *customKeyboard;
 ```
 - Don't forget to add TZKeyboardDelegate in your viewController
 - Then you init in your viewdidload
